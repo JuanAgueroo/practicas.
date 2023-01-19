@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Barberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1> <img  src="logo.png"> </h1>
+        <nav>
+            <ul>
+                <li><a href="practica1.html">Home</a></li>
+                <li><a href="producto1.html">Productos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+    <main>
+    <form>
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required placeholder="Pedrito ">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" class="input-padron" required placeholder="email@.com">
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XXX-XXX-XXX)">
+        <label for="comentario">Comentario</label>
+        <textarea cols="70" rows="10" id="comentario" class="input-padron"></textarea>
+
+        <div>
+        <p>¿Como le gustaria que nos contactemos´?</p>
+
+        <label for="radio-mensaje">Email</label>
+        <input type="radio" id="radio-mensaje" value="email" name="contacto">
+
+        <label for="radio-telefono">Telefono</label>
+        <input type="radio" id="radio-telefono" value="telefono" name="contacto">
+
+        <label for="radio-wsp">whatsapp</label>
+        <input type="radio" id="radio-wsp" value="whatsapp" name="contacto">
+        </div>
+        <div>
+            <p>Cual horario prefiere ser atendido?</p>
+        <select>
+            <option>tarde</option>
+            <option>noche</option>
+            <option>mañana</option>
+        </select>
+        </div>
+
+        <label form="nose" class="chebox">Le gustaria recibir novedades sobre la Barberia</label>
+        <input type="checkbox" id="nose">
+
+
+
+        <input type="submit" value="Enviar Formulario">
+    </form>
+    </main>
+    <footer>
+        <img src="logo-blanco.png">
+        <p>Copyrigut Barberia Alura - 2022</p>
+    </footer>
+</body>
+</html>
